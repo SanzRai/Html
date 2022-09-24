@@ -1,0 +1,98 @@
+.menu .logo .content{
+    text-align: center;
+    background-color: black;
+}
+.menu .logo{
+    float: left;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    }
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+p1{
+    text-align: left;
+    font-size: 20px;
+}
+.contact .form{
+    margin-left: 350px;
+     
+}
+.contactus .container .row .contact .but{
+    left: 350px;
+}
+.footer .container .row .call{
+    display: flex;
+}
+.footer .container .row .mail{
+    display: flex;
+}
+.footer .container .row .follow{
+    display: inline;
+   
+    
+}
+.footer .container .row .follow .Us{
+position: relative;
+top: -10px;
+left: -45px;
+}
+
+.nav .container .row .tag{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 22px;
+}
+.nav .container .row .sign{
+    float: right;
+    margin-top: 25px;
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 90px;
+    border-radius: 15px;
+}
+.nav .container .row .col-lg-4 .tag a{
+    text-decoration: none;
+    color: white;
+    
+}
+.nav .container{
+    background-color: black;
+}
+.container .row .col-lg-12 .Read{
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 750px;
+    left: 2500px;
+    height: 43px;
+    width:170px;
+    font-size: 25px;
+
+}
+.container .row .col-lg-12 .contact .form{
+    left: 100px;
+    position: relative;
+   
+}
+.footer .container{
+    margin-top: 15px;
+    background-color: #DADAD3;
+    width: 100%;
+}
+.contactus .container{
+    background-color: #dadad3;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.services .container{
+    background-color: #dadad3;
+    width: 100%;
+}

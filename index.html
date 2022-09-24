@@ -1,29 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <title>SR Design</title>
+    <link rel="stylesheet" href="sanji.css">
+    <link rel="icon" href="Assests/favicon.ico" type="image/x-icon">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <button onclick="document.getElementById('colorchange').style.backgroundColor='white'">light mode</button>
 
-    <head>
 
-        <title>
-            Beauty Parlour
-        </title>
-        <link href="index.css" rel="stylesheet">
-        <!--linking the css-->
-    <style></style> <!--internal-->
+<button onclick="document.getElementById('colorchange').style.backgroundColor='grey'">dark mode</button>
+<button type="button"onclick="document.getElementById('demo').innerHTML = Date()">Date and Time</button>
 
-    </head>
+    <p id="demo"></p>
+  
+    <script>
+    const d = new Date();
+    document.getElementById("demo").innerHTML = d;
+    </script>
+     </head>
+     <body id="colorchange">
+<div class="nav">
+    
 
-    <body>
-        <div class=" brand">
-            <div class="logo">
-                <h1>Hello World</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="Assests/new logo.png" height="100" width="100">
+            </div>
+            <div class="col-lg-4">
+                <div class="tag">
+            <a href="#">Home</a
+                >&nbsp;&nbsp;<a href="#">Features</a
+                >&nbsp;&nbsp;<a href="#">Contact Us</a
+                >&nbsp;&nbsp;<a href="#">Feedback</a>
+            </div>
+            </div>
+            <div class="col-lg-4">
+                <button class="sign">Sign Up</button>
             </div>
         </div>
-        <div id="logo">
-
         </div>
-        <h1 style="color: red;">Hello World! <!--inline-->
-        </h1>
-    </body>
+        </div>
+    <!-- Content here -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <img src="Assests/interior design.jpg" width=101%>
 
+                    <button class="Read">Read more</button>
+            </div>
+        </div>
+    </div>
+<div class="services">
+    <div class="container">
+        <div class="row">
+            <h1>SR Design Services</h1>
+            <div class="col-lg-4">
+                <img src="Assests/Rectangle 6.png" width=90%>
+                <h2>Residential Design</h2>
+            </div>
+            <div class="col-lg-4">
+                <img src="Assests/Rectangle 6 (1).png" width=90%>
+                <h2>Office Design</h2>
+            </div>
+            <div class="col-lg-4">
+                <img src="Assests/Rectangle 7.png" width="93%" style="float:right">
+                <h2>Commercial Design</h2>
+            </div>
+        </div>
+        </div>
+    </div>
+<div class="contactus">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="contact">
+                    <div class="topic"><h1>Contact Us</h1></div>
+                    <div class="form"><form action="/action_page.php" method="post">
+                    <label for="Full name">Full Name:</label>
+                    &emsp;&emsp;<input type="text" id="fname" name="fname" required><br><br>
+                    <label for="email">Email Address:</label>
+                    &nbsp;<input type="email" id="email" name="email" required><br> <br>
+                    <label for="Contact">Contact No:</label>
+                    &emsp;&ensp;<input type="text" id="contact" name="contact" required><br> <br>
+                    <div class="but">
+                    <input type="submit" value="Send">
+                </div>
+                    </form>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+            </div>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="call">
+                <img src="Assests/image 2.png" height="40" width="40">
+                <p>Call Us<br>
+                    01-453812<br>
+                    01-243986</p>
+                </div>    
+
+            </div>
+            <div class="col-lg-4">
+                <div class="mail">
+                    <img src="Assests/image 3.png" height="40" width="40">
+                    <p>Mail Us<br>
+                        SRDesign@gmail.com</p>
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <div class="follow">
+                    <p>Follow Us</p> <div class="Us">
+                    <img src="Assests/image 4.png" height="40" width="40">
+                    <img src="Assests/image 5.png" height="40" width="40">
+                    <img src="Assests/image 6.png" height="40" width="40">
+                    <img src="Assests/image 7.png" height="40" width="40">
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
 </html>
-
